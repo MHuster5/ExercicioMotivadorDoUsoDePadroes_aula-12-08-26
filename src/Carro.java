@@ -14,6 +14,14 @@ public class Carro {
         return modelo;
     }
 
+    public Motor getMotor(){
+        return motor;
+    }
+
+    public TanqueCombustivel getTanque(){
+        return tanque;
+    }
+
     public int getCombustivelDisponivel() {
         return tanque.getCombustivelDisponivel();
     }
