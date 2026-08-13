@@ -57,7 +57,7 @@ public class App {
         System.out.println(suvFlex);
         System.out.println("\nViajando com o carro SUVFlex");
         suvFlex.viaja(250);
-        suvFlex.viaja(150);
+        //suvFlex.viaja(150);
         System.out.println(suvFlex);
     }
 }
