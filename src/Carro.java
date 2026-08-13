@@ -22,6 +22,10 @@ public class Carro {
         return tanque;
     }
 
+    public TipoCombustivel getTipoCombustivelAtual(){
+        return tanque.getTipoCombustiveAtual();
+    }
+
     public int getCombustivelDisponivel() {
         return tanque.getCombustivelDisponivel();
     }

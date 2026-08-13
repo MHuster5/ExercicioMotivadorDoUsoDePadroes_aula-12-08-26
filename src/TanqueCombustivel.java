@@ -15,6 +15,13 @@ public class TanqueCombustivel {
         return tipoCombustivel;
     }
 
+    public TipoCombustivel getTipoCombustiveAtual(){
+        if(tipoCombustivelAtual == TipoCombustivel.FLEX){
+            return null;
+        }
+        return tipoCombustivelAtual;
+    }
+
     public int getCapacidade() {
         return capacidade;
     }
